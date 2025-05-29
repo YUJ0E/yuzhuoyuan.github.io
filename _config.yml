@@ -18,10 +18,10 @@ github_link: https://github.com/YUJ0E
 linkedin: https://www.linkedin.com/in/zhuoyuan-yu-135245291/
 
 # Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# "favicon" and "favicon_dark" are used for the liyu.jpgght and dark modes, respectively. 
 avatar: ./assets/img/avatar.jpg
-favicon: ./assets/img/star.png
-favicon_dark: ./assets/img/star.png
+favicon: ./assets/img/yu.jpg
+favicon_dark: ./assets/img/yu.jpg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
