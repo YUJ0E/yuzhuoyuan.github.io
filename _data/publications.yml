@@ -1,55 +1,9 @@
 main:
-  - title: "The Impact of Demonstrations on Multilingual In-Context Learning: A Multidimensional Analysis"
-    authors: Miaoran Zhang, Vagrant Gautam, <strong>Mingyang Wang*</strong>, Jesujoba O Alabi, Xiaoyu Shen, Dietrich Klakow, Marius Mosbach
-    conference_short: ACL 2024
-    conference: Proceedings of the 62st Annual Meeting of the Association for Computational Linguistics
-    pdf: https://arxiv.org/abs/2402.12976
-    image: ./assets/img/multi-icl.png
-    
-  - title: "AAdaM at SemEval-2024 Task 1: Augmentation and Adaptation for Multilingual Semantic Textual Relatedness"
-    authors: Miaoran Zhang, <strong>Mingyang Wang*</strong>, Jesujoba O Alabi, Dietrich Klakow
-    conference_short: SemEval 2024
-    conference: Proceedings of the 18th International Workshop on Semantic Evaluation, 2024
-    pdf: https://arxiv.org/abs/2404.01490
-    image: ./assets/img/aadam.png
-    
-  - title: "Rehearsal-Free Modular and Compositional Continual Learning for Language Models"
-    authors: <strong>Mingyang Wang*</strong>, Heike Adel, Lukas Lange, Jannik Strötgen, Hinrich Schütze
-    conference_short: NAACL 2024
-    conference: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics
-    pdf: https://arxiv.org/abs/2404.00790
-    code: https://github.com/boschresearch/MoCL-NAACL-2024
-    image: ./assets/img/mocl.png
-    
-  - title: "Ofa: A framework of initializing unseen subword embeddings for efficient large-scale multilingual continued pretraining"
-    authors: Yihong Liu, Peiqin Lin, <strong>Mingyang Wang*</strong>, Hinrich Schütze
-    conference_short: NAACL 2024
-    conference: Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics
-    pdf: https://arxiv.org/abs/2311.08849
-    code: https://github.com/cisnlp/ofa
-    image: ./assets/img/ofa.png
-    
-  - title: "GradSim: Gradient-Based Language Grouping for Effective Multilingual Training"
-    authors: <strong>Mingyang Wang*</strong>, Heike Adel, Lukas Lange, Jannik Strötgen, Hinrich Schütze
-    conference_short: EMNLP 2023
-    conference: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
-    pdf: https://aclanthology.org/2023.emnlp-main.282/
-    code: https://github.com/boschresearch/gradsim
-    image: ./assets/img/gradsim_pic1.png
-
-    
-  - title: "NLNDE at SemEval-2023 Task 12: Adaptive Pretraining and Source Language Selection for Low-Resource Multilingual Sentiment Analysis"
-    authors: <strong>Mingyang Wang*</strong>, Heike Adel, Lukas Lange, Jannik Strötgen, Hinrich Schütze
-    conference_short: SemEval 2023
-    conference: Proceedings of the 17th International Workshop on Semantic Evaluation, 2023
-    pdf: https://aclanthology.org/2023.semeval-1.68.pdf
-    image: ./assets/img/nlnde_pic.png
-
-
-  - title: "Meta-reinforcement learning based on self-supervised task representation learning"
-    authors: <strong>Mingyang Wang*</strong>, Zhenshan Bing, Xiangtong Yao, Shuai Wang, Hang Su, Chenguang Yang, Kai Huang, Alois Knoll
-    conference_short: AAAI 2023
-    conference: Proceedings of the AAAI Conference on Artificial Intelligence, 2023
-    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26210
-    image: ./assets/img/moss.png
+  - title: "Multi-Robot Reliable Navigation in Uncertain Topological Environments With Graph Attention Networks"
+    authors: <strong>Zhuoyuan Yu*</strong>, Hongliang Guo, Chee Meng Chew, Albertus Hendrawan Adiwahono, Jianle Chan, Brina Wey Tynn Shong, 
+    conference_short: IEEE RA-L
+    conference: IEEE Robotics and Automation Letters
+    pdf: https://ieeexplore.ieee.org/document/10948339
+    code: https://github.com/YUJ0E/MARVEL
+    image: ./assets/img/pipeline1123.png
 
