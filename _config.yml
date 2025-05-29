@@ -1,28 +1,27 @@
 # Basic Information 
-title: Mingyang Wang
-position: Ph.D. Student
-affiliation: LMU Munich, Bosch Center for Artificial Intelligence
-email: mingyang@cis.lmu.de
+title: Zhuoyuan Yu
+position: MEng Student
+affiliation: National University of Singapore
+email: yuzhuoyuan@u.nus.edu
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: minimal light
 description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://mingyang-wang.me/
+canonical: https://yuzhuoyuan.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=d8UFLmsAAAAJ&hl=en
-cv_link: assets/files/CV_Mingyang.pdf
-github_link: https://github.com/mingyang-wang26
-linkedin: https://www.linkedin.com/in/mingyang-wang-873a7a221/
-twitter: https://twitter.com/mingyang2666
+google_scholar: https://scholar.google.com/citations?user=z8m9AYEAAAAJ&hl=en
+cv_link: assets/files/CV_Yuzhuoyuan.pdf
+github_link: https://github.com/YUJ0E
+linkedin: https://www.linkedin.com/in/zhuoyuan-yu-135245291/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/pic_6.jpg
-favicon: ./assets/img/tulip.png
-favicon_dark: ./assets/img/tulip.png
+avatar: ./assets/img/avatar.jpg
+favicon: ./assets/img/star.png
+favicon_dark: ./assets/img/star.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
