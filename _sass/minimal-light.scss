@@ -259,6 +259,7 @@ h2 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  text-align: justify;
 }
 
 h1, h2, h3 {
@@ -327,7 +328,7 @@ table {
 }
 
 th, td {
-  text-align:justify;
+  text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
 }
