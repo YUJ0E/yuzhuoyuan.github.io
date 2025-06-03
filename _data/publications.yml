@@ -1,6 +1,6 @@
 main:
   - title: "Multi-Robot Reliable Navigation in Uncertain Topological Environments With Graph Attention Networks"
-    authors: <strong>Zhuoyuan Yu*</strong>, Hongliang Guo, Chee Meng Chew, Albertus Hendrawan Adiwahono, Jianle Chan, Brina Wey Tynn Shong, 
+    authors: <strong>Zhuoyuan Yu</strong>, Hongliang Guo*, Chee Meng Chew, Albertus Hendrawan Adiwahono, Jianle Chan, Brina Wey Tynn Shong, 
     conference_short: IEEE RA-L
     conference: IEEE Robotics and Automation Letters
     pdf: https://ieeexplore.ieee.org/document/10948339
