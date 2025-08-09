@@ -14,9 +14,9 @@ Prior to this, I earned my ​Master of Engineering in Robotics​ from the Nati
 - Multi-Robot System
 
 ## 📣 News
-- **[Aug. 2025]** 🚀 I've started my PhD journey! 
+- **[Aug.  2025]** 🚀 I've started my PhD journey at UoA! 
 - **[May. 2025]** 🎓 I’ve completed my Master of Engineering at NUS! 
-- **[Apr. 2025]** 🎉 Our paper [MANGAR](https://ieeexplore.ieee.org/document/10948339) has been accepted to IEEE RA-L!
+- **[Apr.  2025]** 🎉 Our paper [MANGAR](https://ieeexplore.ieee.org/document/10948339) has been accepted to IEEE RA-L!
 
 
 {% include_relative _includes/publications.md %}
