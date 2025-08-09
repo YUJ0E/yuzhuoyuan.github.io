@@ -1,8 +1,8 @@
 # Basic Information 
 title: Zhuoyuan Yu
-position: MEng Student
-affiliation: National University of Singapore
-email: <a href="mailto:yuzhuoyuan@u.nus.edu">yuzhuoyuan@u.nus.edu</a>
+position: PhD Candidate
+affiliation: University of Auckland
+email: <a href="mailto:zyu649@aucklanduni.ac.nz">zyu649@aucklanduni.ac.nz</a>
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -20,7 +20,7 @@ linkedin: https://www.linkedin.com/in/zhuoyuan-yu-135245291/
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the liyu.jpgght and dark modes, respectively. 
 avatar: ./assets/img/avatar.jpg
-favicon: ./assets/img/yu.jpg
+favicon: ./assets/img/avatar2.jpg
 favicon_dark: ./assets/img/yu.jpg
 
 # Footnote
