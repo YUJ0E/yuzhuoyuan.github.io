@@ -15,8 +15,8 @@ Prior to this, I earned my ​Master of Engineering in Robotics​ from the Nati
 
 ## 📣 News
 - **[Aug. 2025]** 🚀 I've started my PhD journey! 
-- **[May. 2025]** 🎓 I’ve completed my Master of Engineering - MEng at National University of Singapore! 
-- **[Apr. 2025]** 🎉 Our paper [Multi-Robot Reliable Navigation in Uncertain Topological Environments with Graph Attention Networks](https://ieeexplore.ieee.org/document/10948339) has been accepted to IEEE RA-L!
+- **[May. 2025]** 🎓 I’ve completed my Master of Engineering at NUS! 
+- **[Apr. 2025]** 🎉 Our paper [MANGAR](https://ieeexplore.ieee.org/document/10948339) has been accepted to IEEE RA-L!
 
 
 {% include_relative _includes/publications.md %}
