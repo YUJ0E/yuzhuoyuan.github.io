@@ -15,8 +15,8 @@ Prior to this, I earned my ​Master of Engineering in Robotics​ from the Nati
 
 ## 📣 News
 
-- <span style="display:inline-block;width:3.5em;">[Aug. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🚀</span> I've started my PhD journey at UoA!
-- <span style="display:inline-block;width:3.5em;">[May. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🎓</span> I've completed my Master of Engineering at NUS!
-- <span style="display:inline-block;width:3.5em;">[Apr. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🎉</span> Our paper <a href="https://ieeexplore.ieee.org/document/10948339">MANGAR</a> has been accepted to IEEE RA-L!
+- <span style="display:inline-block;width:2.5em;">[Aug. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🚀</span> I've started my PhD journey at UoA!
+- <span style="display:inline-block;width:2.5em;">[May. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🎓</span> I've completed my Master of Engineering at NUS!
+- <span style="display:inline-block;width:2.5em;">[Apr. </span>2025]<span style="display:inline-block;width:1.6em;text-align:center;line-height:1;vertical-align:middle;">🎉</span> Our paper <a href="https://ieeexplore.ieee.org/document/10948339">MANGAR</a> has been accepted to IEEE RA-L!
 
 {% include_relative _includes/publications.md %}
