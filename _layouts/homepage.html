@@ -43,7 +43,29 @@
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" style="width:300px;"/></a>
         {% endif %}
 
-        <h1>{{ site.title }}</h1>
+        <h1 id="name-rotator"
+            data-name-en="{{ site.title }}"
+            data-name-zh="{{ site.title_zh | default: site.title }}">
+          {{ site.title }}
+        </h1>
+
+        <script>
+          (function () {
+            const el = document.getElementById('name-rotator');
+            if (!el) return;
+
+            const nameEn = el.getAttribute('data-name-en') || el.textContent.trim();
+            const nameZh = el.getAttribute('data-name-zh') || el.textContent.trim();
+            const names = [nameEn, nameZh];
+
+            let i = 0;
+            setInterval(() => {
+              i = (i + 1) % names.length;
+              el.textContent = names[i];
+            }, 2000); // 2000ms=2秒，你想慢点就改成3000/4000
+          })();
+        </script>
+
 
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
