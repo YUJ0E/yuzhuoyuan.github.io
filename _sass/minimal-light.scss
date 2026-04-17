@@ -308,8 +308,14 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:min(80vw, 1400px);
   margin:0 auto;
+}
+
+@media print, screen and (min-width: 961px) {
+  body {
+    zoom: 1.5;
+  }
 }
 
 blockquote {
@@ -368,7 +374,7 @@ img {
 }
 
 header {
-  width:232px;
+  width:clamp(220px, 24%, 300px);
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -385,7 +391,9 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:100%;
+  max-width:270px;
+  margin:0 auto;
 }
 
 header li {
@@ -444,7 +452,7 @@ header ul a strong {
 }
 
 section {
-  width:650px;
+  width:calc(100% - clamp(220px, 24%, 300px) - 32px);
   float:right;
   padding-top:4.0em;
   padding-bottom:50px;
@@ -462,7 +470,7 @@ hr {
 }
 
 footer {
-  width:232px;
+  width:clamp(220px, 24%, 300px);
   float:left;
   position:fixed;
   bottom:30px;
