@@ -1,0 +1,56 @@
+# Basic Information 
+title: Zhuoyuan Yu
+title_zh: 余卓远
+position: Master Student
+affiliation: National University of Singapore
+email: <a href="mailto:yuzhuoyuan@u.nus.edu">yuzhuoyuan@u.nus.edu</a>
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Yu Zhuoyuan, Vision  Language Action, Reinforcement Learning, Mobile Manipulation
+description: This is a simple and elegant jekyll theme for JoeyYu's academic personal homepage.
+canonical: https://yuzhuoyuan.me/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/citations?user=z8m9AYEAAAAJ&hl=en
+cv_link: assets/files/CV_YuZhuoyuan.pdf
+github_link: https://github.com/YUJ0E
+linkedin: https://www.linkedin.com/in/zhuoyuan-yu-135245291/
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the liyu.jpgght and dark modes, respectively. 
+avatar: ./assets/img/avatar.jpg
+favicon: ./assets/img/avatar2.png
+favicon_dark: ./assets/img/avatar2.png
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+google_analytics: UA-111540567-4
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/
