@@ -8,6 +8,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "AiDianGanFengXingShu";
+  src: url("../fonts/AiDianGanFengXingShu1008-2.ttf") format("truetype");
+  font-display: swap;
+}
+
 .social-icons a{
   display:inline-block;
   height:2.4rem;
@@ -220,7 +226,7 @@ h1 {
 }
 
 #name-rotator.is-zh {
-  font-family: "WeiNiZhuYiLangManXingShu", cursive;
+  font-family: "AiDianGanFengXingShu", "WeiNiZhuYiLangManXingShu", cursive;
   font-weight: 400;
 }
 
@@ -249,10 +255,11 @@ a:hover small {
   margin:0 auto;
 }
 
-@media print, screen and (min-width: 961px) {
-  body {
-    zoom: 1.5;
-  }
+.wave-gif {
+  width: 3.6em;
+  height: 3.6em;
+  vertical-align: -0.18em;
+  margin-right: 0.18em;
 }
 
 blockquote {
