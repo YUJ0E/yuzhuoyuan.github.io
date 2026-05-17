@@ -11,7 +11,7 @@
 @font-face {
   font-family: "AiDianGanFengXingShu";
   src: url("../fonts/AiDianGanFengXingShu1008-2.ttf") format("truetype");
-  font-display: swap;
+  font-display: block;
 }
 
 .social-icons a{
@@ -283,7 +283,7 @@ h1 {
 }
 
 #name-rotator.is-zh {
-  font-family: "AiDianGanFengXingShu", "WeiNiZhuYiLangManXingShu", cursive;
+  font-family: "AiDianGanFengXingShu", cursive;
   font-weight: 400;
 }
 

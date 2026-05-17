@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## 👋 Welcome, I'm Zhuoyuan!
+## 👋 Hi there, I'm Zhuoyuan!
 I am currently a research intern in robotics with a focus on Vision Language Action models. My research interests include Vision Language Action models + Reinforcement Learning and world model.
 
 Prior to this, I earned my ​Master's Degree in Robotics​ from National University of Singapore, where I conducted research under the guidance of ​Prof. [Chee Meng Chew](https://sites.google.com/site/cmchewhome/home)​ and ​Prof. [Hongliang Guo](https://scholar.google.com.sg/citations?user=vR9kUw8AAAAJ&hl=en), and completed my ​Bachelor of Engineering in Aircraft Design​ at Northwestern Polytechnical University.
