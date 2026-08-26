@@ -1,0 +1,11 @@
+exclude:
+  - .bundle/
+  - vendor/
+  - html_source_file/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE

@@ -7,3 +7,20 @@ main:
     code: https://github.com/YUJ0E/MARVEL
     image: ./assets/img/pipeline1123.png
 
+  - title: "GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning"
+    authors: Yufei Jia1, Heng Zhang, Ziheng Zhang, Junzhe Wu, Mingrui Yu, Zifan Wang, Dixuan Jiang, Zheng Li, Chenyu Cao, Zhuoyuan Yu, Xun Yang, Haizhou Ge... Guyue Zhou*
+    conference_short: RSS 2026
+    conference: "Robotics: Science and Systems"
+    pdf: https://arxiv.org/pdf/2604.25459
+    code: https://github.com/discoverse-dev/gs_playground
+    page: https://gsplayground.github.io/
+    image: ./assets/img/gsp.png
+
+  - title: "GaussFly: Contrastive Reinforcement Learning for Visuomotor Policies in 3D Gaussian Fields"
+    authors: Yuhang Zhang, Mingsheng Li, Yujing Shang, Zhuoyuan Yu, Chao Yan, Jiaping Xiao, Mir Feroskhan*
+    conference_short: arXiv
+    # conference: "Robotics: Science and Systems"
+    pdf: https://arxiv.org/abs/2604.05062
+    # code: https://github.com/discoverse-dev/gs_playground
+    page: https://zzzzzyh111.github.io/GaussFly_Web/
+    image: ./assets/img/gaussianfly.png
