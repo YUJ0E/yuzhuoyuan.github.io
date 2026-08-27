@@ -488,6 +488,7 @@ header {
   width:clamp(240px, 25%, 320px);
   float:left;
   position:fixed;
+  transform:translate(clamp(-52px, -3vw, -24px), 24px);
   -webkit-font-smoothing:subpixel-antialiased;
   padding-top:4.0em;
   text-align:center
@@ -609,6 +610,7 @@ footer {
 
   header {
     padding-right:320px;
+    transform:none;
   }
 
   section {
