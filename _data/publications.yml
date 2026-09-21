@@ -8,7 +8,7 @@ main:
     image: ./assets/img/pipeline1123.png
 
   - title: "GS-Playground: A High-Throughput Photorealistic Simulator for Vision-Informed Robot Learning"
-    authors: Yufei Jia1, Heng Zhang, Ziheng Zhang, Junzhe Wu, Mingrui Yu, Zifan Wang, Dixuan Jiang, Zheng Li, Chenyu Cao, Zhuoyuan Yu, Xun Yang, Haizhou Ge... Guyue Zhou*
+    authors: Yufei Jia, Heng Zhang, Ziheng Zhang, Junzhe Wu, Mingrui Yu, Zifan Wang, Dixuan Jiang, Zheng Li, Chenyu Cao, Zhuoyuan Yu, Xun Yang, Haizhou Ge... Guyue Zhou*
     conference_short: RSS 2026
     conference: "Robotics: Science and Systems"
     pdf: https://arxiv.org/pdf/2604.25459
