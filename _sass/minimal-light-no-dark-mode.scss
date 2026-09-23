@@ -2,6 +2,75 @@
   display: flex; 
   align-items: center;}
 
+body {
+  background-color: #eef4fa;
+}
+
+/* Light-blue animated background: soft colour washes plus a canvas point field (assets/js/bg.js). */
+.bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(55% 45% at 8% -5%, rgba(120, 180, 230, 0.26), transparent 70%),
+    radial-gradient(45% 40% at 95% 8%, rgba(70, 140, 210, 0.16), transparent 70%),
+    radial-gradient(50% 45% at 60% 110%, rgba(150, 205, 235, 0.22), transparent 70%),
+    #eef4fa;
+}
+
+.bg canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  /* dim the field behind the text so the content stays readable */
+  -webkit-mask-image: radial-gradient(ellipse 60% 70% at 55% 50%, rgba(0, 0, 0, 0.6) 40%, #000 100%);
+          mask-image: radial-gradient(ellipse 60% 70% at 55% 50%, rgba(0, 0, 0, 0.6) 40%, #000 100%);
+}
+
+/* frosted beige panels behind the profile and the main text so the background stays calm */
+.profile-card, section {
+  box-sizing: border-box;
+  background: rgba(238, 244, 250, 0.92);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border: 1px solid rgba(60, 100, 150, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 10px 40px rgba(30, 60, 100, 0.08);
+}
+
+.profile-card {
+  padding: 1.6em 1.2em 1.4em;
+}
+
+/* publication cards: white panel per paper, lifts and highlights on hover */
+.publications ol.bibliography li {
+  padding: 16px 12px;
+  margin-bottom: 16px;
+  background: rgba(246, 250, 254, 0.9);
+  border: 1px solid rgba(60, 110, 170, 0.16);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 10px 28px -14px rgba(20, 45, 80, 0.22);
+  transition: transform 0.25s ease, border-color 0.2s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.publications ol.bibliography li:hover {
+  transform: translateY(-3px);
+  background: rgba(250, 252, 255, 0.98);
+  border-color: rgba(46, 120, 190, 0.45);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 18px 40px -20px rgba(20, 50, 90, 0.4);
+}
+
+.publications ol.bibliography li .teaser {
+  border-radius: 8px;
+  transition: transform 0.25s ease;
+}
+
+.publications ol.bibliography li:hover .teaser {
+  transform: scale(1.02);
+}
+
 @font-face {
   font-family: "WeiNiZhuYiLangManXingShu";
   src: url("../fonts/WeiNiZhuYiLangManXingShu-2.ttf") format("truetype");
@@ -27,7 +96,7 @@
   margin-right:1rem}
 
 
-.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
+.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:transparent;
     color:black;
     transform: scale(1.2)}
     /*
@@ -408,9 +477,10 @@ header {
   width:clamp(240px, 25%, 320px);
   float:left;
   position:fixed;
-  transform:translate(clamp(-52px, -3vw, -24px), 24px);
+  top:2.5em;
+  transform:translateX(clamp(-52px, -3vw, -24px));
   -webkit-font-smoothing:subpixel-antialiased;
-  padding-top:4.0em;
+  padding-top:1em;
   text-align:center
 }
 
@@ -481,8 +551,9 @@ header ul a strong {
 section {
   width:calc(100% - clamp(240px, 25%, 320px) - clamp(48px, 5vw, 80px));
   float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+  margin-top:2.5em;
+  margin-bottom:2.5em;
+  padding:2.2em 2.6em 50px;
 }
 
 small {
@@ -526,12 +597,11 @@ footer {
   header {
     padding-right:320px;
     transform:none;
+    margin-bottom:20px;
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
+    padding:20px 18px;
     margin:0 0 20px;
   }
 
