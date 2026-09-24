@@ -27,7 +27,7 @@ I am currently a Research Assistant at the [MARS Lab](https://marslab.tech/) at 
 
 <div class="experience-list">
   <div class="experience-item">
-    <div class="experience-logo"><img src="./assets/img/nus-logo.png" alt="National University of Singapore logo"></div>
+    <div class="experience-logo"><img class="logo-compact" src="./assets/img/nus-logo.png" alt="National University of Singapore logo"></div>
     <div class="experience-main">
       <div class="experience-title">National University of Singapore (NUS)</div>
       <div class="experience-subtitle">College of Design and Engineering</div>

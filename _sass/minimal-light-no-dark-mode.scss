@@ -62,6 +62,26 @@ body {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 18px 40px -20px rgba(20, 50, 90, 0.4);
 }
 
+/* whole card is clickable: an overlay link sits under the inner links/buttons */
+.publications ol.bibliography li.pub-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.publications ol.bibliography li .pub-card-link {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+}
+
+.publications ol.bibliography li .title a,
+.publications ol.bibliography li .author a,
+.publications ol.bibliography li .links a {
+  position: relative;
+  z-index: 2;
+}
+
 .publications ol.bibliography li .teaser {
   border-radius: 8px;
   transition: transform 0.25s ease;
@@ -372,6 +392,10 @@ a:hover small {
   max-width: 140px;
   max-height: 62px;
   object-fit: contain;
+}
+
+.experience-logo img.logo-compact {
+  width: 75%;
 }
 
 .experience-title {
